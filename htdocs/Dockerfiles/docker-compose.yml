@@ -1,0 +1,8 @@
+nginx:
+    build: ./registry
+    container_name: opt_registry
+    ports:
+      - "5000:5000"
+    volumes:
+      - ~/opt-docker-registry/docker/registry:/tmp/registry
+    restart: always
