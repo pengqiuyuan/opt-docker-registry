@@ -10,3 +10,4 @@ $ git clone https://github.com/pengqiuyuan/opt-docker-registry.git
 $ cd ~/opt-docker-registry/htdocs/Dockerfiles
 $ docker-compose build && docker-compose up -d
 ```
+
